@@ -1,8 +1,5 @@
 language: ruby
 script: rake test
-branches:
-  only:
-    - master
 services:
   - redis-server
 rvm:
